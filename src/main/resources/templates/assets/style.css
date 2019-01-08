@@ -1,4 +1,18 @@
 .main-container {
-    background-image: url("/images/72hWcarbonation.gif");
-    background-color: #cccccc;
+    background-image: url("./images/72hWcarbonation.gif");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    bottom: 5px;
+    position: absolute
 }
